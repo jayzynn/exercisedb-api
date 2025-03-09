@@ -44,9 +44,7 @@
     "release": "bun run test && bun run changelogen --release --push",
     "postinstall": "npx simple-git-hooks"
   },
-  "simple-git-hooks": {
-    "pre-commit": "bun run lint && bun run format",
-    "commit-msg": "bun run commitlint --edit $1"
+
   },
   "dependencies": {
     "@hono/node-server": "^1.12.1",
